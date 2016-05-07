@@ -1,0 +1,564 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		698790491CDDFA8A00FF209F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698790481CDDFA8A00FF209F /* AppDelegate.swift */; };
+		698790501CDDFA8A00FF209F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6987904F1CDDFA8A00FF209F /* Assets.xcassets */; };
+		698790531CDDFA8A00FF209F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 698790511CDDFA8A00FF209F /* LaunchScreen.storyboard */; };
+		6987905E1CDDFA8A00FF209F /* SiriusDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6987905D1CDDFA8A00FF209F /* SiriusDemoTests.swift */; };
+		698790691CDDFA8A00FF209F /* SiriusDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698790681CDDFA8A00FF209F /* SiriusDemoUITests.swift */; };
+		6987907C1CDDFB1600FF209F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6987907A1CDDFB1600FF209F /* MainViewController.swift */; };
+		6987907D1CDDFB1600FF209F /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6987907B1CDDFB1600FF209F /* MainViewController.xib */; };
+		698790821CDDFBDA00FF209F /* NSObjectProtocolExtensionManipulation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698790811CDDFBDA00FF209F /* NSObjectProtocolExtensionManipulation.swift */; };
+		698790841CDDFCC200FF209F /* NSObjectExtensionClassName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698790831CDDFCC200FF209F /* NSObjectExtensionClassName.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6987905A1CDDFA8A00FF209F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6987903D1CDDFA8900FF209F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 698790441CDDFA8900FF209F;
+			remoteInfo = SiriusDemo;
+		};
+		698790651CDDFA8A00FF209F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6987903D1CDDFA8900FF209F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 698790441CDDFA8900FF209F;
+			remoteInfo = SiriusDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		698790451CDDFA8900FF209F /* SiriusDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SiriusDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		698790481CDDFA8A00FF209F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6987904F1CDDFA8A00FF209F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		698790521CDDFA8A00FF209F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		698790541CDDFA8A00FF209F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		698790591CDDFA8A00FF209F /* SiriusDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SiriusDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6987905D1CDDFA8A00FF209F /* SiriusDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiriusDemoTests.swift; sourceTree = "<group>"; };
+		6987905F1CDDFA8A00FF209F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		698790641CDDFA8A00FF209F /* SiriusDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SiriusDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		698790681CDDFA8A00FF209F /* SiriusDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiriusDemoUITests.swift; sourceTree = "<group>"; };
+		6987906A1CDDFA8A00FF209F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6987907A1CDDFB1600FF209F /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		6987907B1CDDFB1600FF209F /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		698790811CDDFBDA00FF209F /* NSObjectProtocolExtensionManipulation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSObjectProtocolExtensionManipulation.swift; sourceTree = "<group>"; };
+		698790831CDDFCC200FF209F /* NSObjectExtensionClassName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSObjectExtensionClassName.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		698790421CDDFA8900FF209F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		698790561CDDFA8A00FF209F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		698790611CDDFA8A00FF209F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6987903C1CDDFA8900FF209F = {
+			isa = PBXGroup;
+			children = (
+				698790471CDDFA8A00FF209F /* SiriusDemo */,
+				6987905C1CDDFA8A00FF209F /* SiriusDemoTests */,
+				698790671CDDFA8A00FF209F /* SiriusDemoUITests */,
+				698790461CDDFA8900FF209F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		698790461CDDFA8900FF209F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				698790451CDDFA8900FF209F /* SiriusDemo.app */,
+				698790591CDDFA8A00FF209F /* SiriusDemoTests.xctest */,
+				698790641CDDFA8A00FF209F /* SiriusDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		698790471CDDFA8A00FF209F /* SiriusDemo */ = {
+			isa = PBXGroup;
+			children = (
+				698790761CDDFB0A00FF209F /* Flows */,
+				698790791CDDFB0A00FF209F /* Libraries */,
+				698790481CDDFA8A00FF209F /* AppDelegate.swift */,
+				6987904F1CDDFA8A00FF209F /* Assets.xcassets */,
+				698790511CDDFA8A00FF209F /* LaunchScreen.storyboard */,
+				698790541CDDFA8A00FF209F /* Info.plist */,
+			);
+			path = SiriusDemo;
+			sourceTree = "<group>";
+		};
+		6987905C1CDDFA8A00FF209F /* SiriusDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				6987905D1CDDFA8A00FF209F /* SiriusDemoTests.swift */,
+				6987905F1CDDFA8A00FF209F /* Info.plist */,
+			);
+			path = SiriusDemoTests;
+			sourceTree = "<group>";
+		};
+		698790671CDDFA8A00FF209F /* SiriusDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				698790681CDDFA8A00FF209F /* SiriusDemoUITests.swift */,
+				6987906A1CDDFA8A00FF209F /* Info.plist */,
+			);
+			path = SiriusDemoUITests;
+			sourceTree = "<group>";
+		};
+		698790761CDDFB0A00FF209F /* Flows */ = {
+			isa = PBXGroup;
+			children = (
+				698790771CDDFB0A00FF209F /* Main */,
+			);
+			path = Flows;
+			sourceTree = "<group>";
+		};
+		698790771CDDFB0A00FF209F /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				698790781CDDFB0A00FF209F /* MainViewController */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		698790781CDDFB0A00FF209F /* MainViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6987907A1CDDFB1600FF209F /* MainViewController.swift */,
+				6987907B1CDDFB1600FF209F /* MainViewController.xib */,
+			);
+			path = MainViewController;
+			sourceTree = "<group>";
+		};
+		698790791CDDFB0A00FF209F /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				6987907E1CDDFB6100FF209F /* Sirius */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		6987907E1CDDFB6100FF209F /* Sirius */ = {
+			isa = PBXGroup;
+			children = (
+				6987907F1CDDFBDA00FF209F /* Extensions */,
+			);
+			name = Sirius;
+			path = ../../../../Source;
+			sourceTree = "<group>";
+		};
+		6987907F1CDDFBDA00FF209F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				698790801CDDFBDA00FF209F /* Objects */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		698790801CDDFBDA00FF209F /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				698790811CDDFBDA00FF209F /* NSObjectProtocolExtensionManipulation.swift */,
+				698790831CDDFCC200FF209F /* NSObjectExtensionClassName.swift */,
+			);
+			path = Objects;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		698790441CDDFA8900FF209F /* SiriusDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6987906D1CDDFA8A00FF209F /* Build configuration list for PBXNativeTarget "SiriusDemo" */;
+			buildPhases = (
+				698790411CDDFA8900FF209F /* Sources */,
+				698790421CDDFA8900FF209F /* Frameworks */,
+				698790431CDDFA8900FF209F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SiriusDemo;
+			productName = SiriusDemo;
+			productReference = 698790451CDDFA8900FF209F /* SiriusDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		698790581CDDFA8A00FF209F /* SiriusDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 698790701CDDFA8A00FF209F /* Build configuration list for PBXNativeTarget "SiriusDemoTests" */;
+			buildPhases = (
+				698790551CDDFA8A00FF209F /* Sources */,
+				698790561CDDFA8A00FF209F /* Frameworks */,
+				698790571CDDFA8A00FF209F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6987905B1CDDFA8A00FF209F /* PBXTargetDependency */,
+			);
+			name = SiriusDemoTests;
+			productName = SiriusDemoTests;
+			productReference = 698790591CDDFA8A00FF209F /* SiriusDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		698790631CDDFA8A00FF209F /* SiriusDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 698790731CDDFA8A00FF209F /* Build configuration list for PBXNativeTarget "SiriusDemoUITests" */;
+			buildPhases = (
+				698790601CDDFA8A00FF209F /* Sources */,
+				698790611CDDFA8A00FF209F /* Frameworks */,
+				698790621CDDFA8A00FF209F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				698790661CDDFA8A00FF209F /* PBXTargetDependency */,
+			);
+			name = SiriusDemoUITests;
+			productName = SiriusDemoUITests;
+			productReference = 698790641CDDFA8A00FF209F /* SiriusDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6987903D1CDDFA8900FF209F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Igor Matyushkin";
+				TargetAttributes = {
+					698790441CDDFA8900FF209F = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					698790581CDDFA8A00FF209F = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 698790441CDDFA8900FF209F;
+					};
+					698790631CDDFA8A00FF209F = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 698790441CDDFA8900FF209F;
+					};
+				};
+			};
+			buildConfigurationList = 698790401CDDFA8900FF209F /* Build configuration list for PBXProject "SiriusDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6987903C1CDDFA8900FF209F;
+			productRefGroup = 698790461CDDFA8900FF209F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				698790441CDDFA8900FF209F /* SiriusDemo */,
+				698790581CDDFA8A00FF209F /* SiriusDemoTests */,
+				698790631CDDFA8A00FF209F /* SiriusDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		698790431CDDFA8900FF209F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				698790531CDDFA8A00FF209F /* LaunchScreen.storyboard in Resources */,
+				6987907D1CDDFB1600FF209F /* MainViewController.xib in Resources */,
+				698790501CDDFA8A00FF209F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		698790571CDDFA8A00FF209F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		698790621CDDFA8A00FF209F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		698790411CDDFA8900FF209F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				698790491CDDFA8A00FF209F /* AppDelegate.swift in Sources */,
+				698790821CDDFBDA00FF209F /* NSObjectProtocolExtensionManipulation.swift in Sources */,
+				698790841CDDFCC200FF209F /* NSObjectExtensionClassName.swift in Sources */,
+				6987907C1CDDFB1600FF209F /* MainViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		698790551CDDFA8A00FF209F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6987905E1CDDFA8A00FF209F /* SiriusDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		698790601CDDFA8A00FF209F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				698790691CDDFA8A00FF209F /* SiriusDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6987905B1CDDFA8A00FF209F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 698790441CDDFA8900FF209F /* SiriusDemo */;
+			targetProxy = 6987905A1CDDFA8A00FF209F /* PBXContainerItemProxy */;
+		};
+		698790661CDDFA8A00FF209F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 698790441CDDFA8900FF209F /* SiriusDemo */;
+			targetProxy = 698790651CDDFA8A00FF209F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		698790511CDDFA8A00FF209F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				698790521CDDFA8A00FF209F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6987906B1CDDFA8A00FF209F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6987906C1CDDFA8A00FF209F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6987906E1CDDFA8A00FF209F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SiriusDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.visuality.SiriusDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6987906F1CDDFA8A00FF209F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SiriusDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.visuality.SiriusDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		698790711CDDFA8A00FF209F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SiriusDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.visuality.SiriusDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SiriusDemo.app/SiriusDemo";
+			};
+			name = Debug;
+		};
+		698790721CDDFA8A00FF209F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SiriusDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.visuality.SiriusDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SiriusDemo.app/SiriusDemo";
+			};
+			name = Release;
+		};
+		698790741CDDFA8A00FF209F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SiriusDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.visuality.SiriusDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SiriusDemo;
+			};
+			name = Debug;
+		};
+		698790751CDDFA8A00FF209F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SiriusDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.visuality.SiriusDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SiriusDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		698790401CDDFA8900FF209F /* Build configuration list for PBXProject "SiriusDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6987906B1CDDFA8A00FF209F /* Debug */,
+				6987906C1CDDFA8A00FF209F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6987906D1CDDFA8A00FF209F /* Build configuration list for PBXNativeTarget "SiriusDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6987906E1CDDFA8A00FF209F /* Debug */,
+				6987906F1CDDFA8A00FF209F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		698790701CDDFA8A00FF209F /* Build configuration list for PBXNativeTarget "SiriusDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				698790711CDDFA8A00FF209F /* Debug */,
+				698790721CDDFA8A00FF209F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		698790731CDDFA8A00FF209F /* Build configuration list for PBXNativeTarget "SiriusDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				698790741CDDFA8A00FF209F /* Debug */,
+				698790751CDDFA8A00FF209F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6987903D1CDDFA8900FF209F /* Project object */;
+}
