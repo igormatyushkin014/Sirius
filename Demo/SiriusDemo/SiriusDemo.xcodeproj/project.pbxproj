@@ -14,8 +14,8 @@
 		698790691CDDFA8A00FF209F /* SiriusDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698790681CDDFA8A00FF209F /* SiriusDemoUITests.swift */; };
 		6987907C1CDDFB1600FF209F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6987907A1CDDFB1600FF209F /* MainViewController.swift */; };
 		6987907D1CDDFB1600FF209F /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6987907B1CDDFB1600FF209F /* MainViewController.xib */; };
-		698790821CDDFBDA00FF209F /* NSObjectProtocolExtensionManipulation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698790811CDDFBDA00FF209F /* NSObjectProtocolExtensionManipulation.swift */; };
-		698790841CDDFCC200FF209F /* NSObjectExtensionClassName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698790831CDDFCC200FF209F /* NSObjectExtensionClassName.swift */; };
+		69B1928F1D95A6D900C2309D /* NSObjectExtensionClassName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B1928D1D95A6D900C2309D /* NSObjectExtensionClassName.swift */; };
+		69B192901D95A6D900C2309D /* NSObjectProtocolExtensionManipulation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B1928E1D95A6D900C2309D /* NSObjectProtocolExtensionManipulation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,8 +49,8 @@
 		6987906A1CDDFA8A00FF209F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6987907A1CDDFB1600FF209F /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		6987907B1CDDFB1600FF209F /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
-		698790811CDDFBDA00FF209F /* NSObjectProtocolExtensionManipulation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSObjectProtocolExtensionManipulation.swift; sourceTree = "<group>"; };
-		698790831CDDFCC200FF209F /* NSObjectExtensionClassName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSObjectExtensionClassName.swift; sourceTree = "<group>"; };
+		69B1928D1D95A6D900C2309D /* NSObjectExtensionClassName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSObjectExtensionClassName.swift; sourceTree = "<group>"; };
+		69B1928E1D95A6D900C2309D /* NSObjectProtocolExtensionManipulation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSObjectProtocolExtensionManipulation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				698790761CDDFB0A00FF209F /* Flows */,
-				698790791CDDFB0A00FF209F /* Libraries */,
+				69B192891D95A6D300C2309D /* Libraries */,
 				698790481CDDFA8A00FF209F /* AppDelegate.swift */,
 				6987904F1CDDFA8A00FF209F /* Assets.xcassets */,
 				698790511CDDFA8A00FF209F /* LaunchScreen.storyboard */,
@@ -154,36 +154,36 @@
 			path = MainViewController;
 			sourceTree = "<group>";
 		};
-		698790791CDDFB0A00FF209F /* Libraries */ = {
+		69B192891D95A6D300C2309D /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
-				6987907E1CDDFB6100FF209F /* Sirius */,
+				69B1928A1D95A6D900C2309D /* Sirius */,
 			);
 			path = Libraries;
 			sourceTree = "<group>";
 		};
-		6987907E1CDDFB6100FF209F /* Sirius */ = {
+		69B1928A1D95A6D900C2309D /* Sirius */ = {
 			isa = PBXGroup;
 			children = (
-				6987907F1CDDFBDA00FF209F /* Extensions */,
+				69B1928B1D95A6D900C2309D /* Extensions */,
 			);
 			name = Sirius;
-			path = ../../../../Source;
+			path = ../../../../Sirius;
 			sourceTree = "<group>";
 		};
-		6987907F1CDDFBDA00FF209F /* Extensions */ = {
+		69B1928B1D95A6D900C2309D /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				698790801CDDFBDA00FF209F /* Objects */,
+				69B1928C1D95A6D900C2309D /* Objects */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
 		};
-		698790801CDDFBDA00FF209F /* Objects */ = {
+		69B1928C1D95A6D900C2309D /* Objects */ = {
 			isa = PBXGroup;
 			children = (
-				698790811CDDFBDA00FF209F /* NSObjectProtocolExtensionManipulation.swift */,
-				698790831CDDFCC200FF209F /* NSObjectExtensionClassName.swift */,
+				69B1928D1D95A6D900C2309D /* NSObjectExtensionClassName.swift */,
+				69B1928E1D95A6D900C2309D /* NSObjectProtocolExtensionManipulation.swift */,
 			);
 			path = Objects;
 			sourceTree = "<group>";
@@ -251,18 +251,22 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "Igor Matyushkin";
 				TargetAttributes = {
 					698790441CDDFA8900FF209F = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = AFEG59EG8E;
+						LastSwiftMigration = 0800;
 					};
 					698790581CDDFA8A00FF209F = {
 						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0800;
 						TestTargetID = 698790441CDDFA8900FF209F;
 					};
 					698790631CDDFA8A00FF209F = {
 						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0800;
 						TestTargetID = 698790441CDDFA8900FF209F;
 					};
 				};
@@ -320,8 +324,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				698790491CDDFA8A00FF209F /* AppDelegate.swift in Sources */,
-				698790821CDDFBDA00FF209F /* NSObjectProtocolExtensionManipulation.swift in Sources */,
-				698790841CDDFCC200FF209F /* NSObjectExtensionClassName.swift in Sources */,
+				69B1928F1D95A6D900C2309D /* NSObjectExtensionClassName.swift in Sources */,
+				69B192901D95A6D900C2309D /* NSObjectProtocolExtensionManipulation.swift in Sources */,
 				6987907C1CDDFB1600FF209F /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -383,8 +387,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -428,8 +434,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -448,6 +456,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -456,11 +465,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AFEG59EG8E;
 				INFOPLIST_FILE = SiriusDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.visuality.SiriusDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -468,11 +479,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AFEG59EG8E;
 				INFOPLIST_FILE = SiriusDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.visuality.SiriusDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -484,6 +497,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.visuality.SiriusDemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SiriusDemo.app/SiriusDemo";
 			};
 			name = Debug;
@@ -496,6 +510,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.visuality.SiriusDemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SiriusDemo.app/SiriusDemo";
 			};
 			name = Release;
@@ -507,6 +522,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.visuality.SiriusDemoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = SiriusDemo;
 			};
 			name = Debug;
@@ -518,6 +534,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.visuality.SiriusDemoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = SiriusDemo;
 			};
 			name = Release;
@@ -541,6 +558,7 @@
 				6987906F1CDDFA8A00FF209F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		698790701CDDFA8A00FF209F /* Build configuration list for PBXNativeTarget "SiriusDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -549,6 +567,7 @@
 				698790721CDDFA8A00FF209F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		698790731CDDFA8A00FF209F /* Build configuration list for PBXNativeTarget "SiriusDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -557,6 +576,7 @@
 				698790751CDDFA8A00FF209F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

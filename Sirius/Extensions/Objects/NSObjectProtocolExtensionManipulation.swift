@@ -18,14 +18,16 @@ public extension NSObjectProtocol {
     
     // MARK: Public object methods
     
-    public func use(block: ((object: Self) -> Void)) -> Self {
-        block(object: self)
+    @discardableResult
+    public func use(block: ((_ object: Self) -> Void)) -> Self {
+        block(self)
         return self
     }
     
-    public func useAs<ObjectType>(castToType: ObjectType.Type, withBlock block: (object: ObjectType) -> Void) -> Self {
+    @discardableResult
+    public func useAs<ObjectType>(castToType: ObjectType.Type, withBlock block: (_ object: ObjectType) -> Void) -> Self {
         let castedObject = self as! ObjectType
-        block(object: castedObject)
+        block(castedObject)
         return self
     }
     

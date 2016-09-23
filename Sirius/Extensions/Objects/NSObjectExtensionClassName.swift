@@ -12,13 +12,13 @@ public extension NSObject {
     
     // MARK: Public static methods
     
-    public static func className(includeNamespace includeNamespace: Bool) -> String {
+    public static func className(withNamespace includeNamespace: Bool) -> String {
         let classNameWithNamespace = NSStringFromClass(self)
         
         if includeNamespace {
             return classNameWithNamespace
         } else {
-            let segments = classNameWithNamespace.componentsSeparatedByString(".")
+            let segments = classNameWithNamespace.components(separatedBy: ".")
             let classNameWithoutNamespace = segments.last ?? ""
             return classNameWithoutNamespace
         }

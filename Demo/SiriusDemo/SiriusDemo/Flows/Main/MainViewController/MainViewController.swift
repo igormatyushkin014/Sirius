@@ -43,8 +43,8 @@ class MainViewController: UIViewController {
         // Initialize view
         
         view.layer.use { (layer) in
-            layer.backgroundColor = UIColor.lightGrayColor().CGColor
-            layer.geometryFlipped = true
+            layer.backgroundColor = UIColor.lightGray.cgColor
+            layer.isGeometryFlipped = true
         }
     }
     
