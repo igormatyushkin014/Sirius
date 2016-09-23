@@ -2,13 +2,20 @@
   <img src="https://github.com/igormatyushkin014/Sirius/blob/master/Logo/logo-1024-300.png" alt="Sirius" title="Sirius">
 </p>
 
+<p align="center">
+<a href="https://swift.org"><img src="https://img.shields.io/badge/Swift-3.0-orange.svg?style=flat"></a>
+<a href="https://cocoapods.org"><img src="https://img.shields.io/cocoapods/v/Sirius.svg?maxAge=2592000"></a>
+<a href="https://cocoapods.org"><img src="https://img.shields.io/cocoapods/dt/Sirius.svg?maxAge=2592000"></a>
+<a href="https://tldrlegal.com/license/mit-license"><img src="https://img.shields.io/badge/License-MIT-blue.svg?style=flat"></a>
+</p>
+
 # At a Glance
 
 Swift is still a brand new language, which, very often, does not relieve the developer from writing a lot of boilerplate code. The main goal of `Sirius` framework is to simplify work with fundamental things in modern programming: the objects. Framework includes set of extensions for Swift's native types and protocols, which makes programming easier and allows to save many lines of code.
 
 ##How To Get Started
 
-- Copy content of `Source` folder to your project.
+- Copy content of `Sirius` folder to your project.
 
 or
 
@@ -16,8 +23,10 @@ or
 
 ## Requirements
 
-* iOS 8 and later
-* Xcode 7 and later
+* iOS 9.0 and later
+* Xcode 8 and later
+
+**Note**: For Swift 2.x use `Sirius v1.0`. For Swift 3.0 use `Sirius v3.0`.
 
 ## Usage
 
